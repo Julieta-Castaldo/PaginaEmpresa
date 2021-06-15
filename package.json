@@ -1,0 +1,32 @@
+{
+  "name": "prueba-git",
+  "version": "1.0.0",
+  "description": "Juestro primer proyecto de Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JudCor@bitbucket.org/JudCor/prueba-git.git"
+  },
+  "author": "David Cor",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/JudCor/prueba-git#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "open-iconic": "^1.1.1",
+    "pkg": "^4.4.8",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1"
+  },
+  "keywords": [
+    "juli"
+  ]
+}

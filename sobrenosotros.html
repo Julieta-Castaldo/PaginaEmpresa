@@ -1,0 +1,129 @@
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilomio.css"> 
+    <link rel="stylesheet" type="text/css" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <title>Contacto </title>
+  </head>
+
+
+  <body id="cuerpo">
+    <div class="container" id="caja">
+      <header class="fixed-top"> 
+         <!--al usar navbar.expand-md, la barra de navegación se expanderá desde el tamaño md, de lo contrario, se colapsará y se verá como ícono-->
+        <!--NAVBAR COLAPSABLE: la clase "data-toggle=collapse" es la que hace que se colapsen los botones-->
+           <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a class="navbar-brand" href="#">Fotografía</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="Cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="sobrenosotros.html">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+          </nav>
+
+         <!--INICIO BREADCRUMB-->
+          <nav aria-label="breadcrumb">
+           <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+           </ol>
+          </nav>
+          <!--fin-->
+      </header>
+
+
+      <section class="row" id="seccion">
+        <div class="col-12">
+          <!--INICIO JUMBOTRON-->
+             <div class="jumbotron jumbotron-fluid">
+               <div class="container">
+              <h1 class="display-4">Contacto </h1>
+              <p class="lead">Llena el formulario y nos contactaremos contigo.</p> 
+               </div>
+             </div>
+             <!-- FIN JUMBOTRON-->
+             </div>
+         
+
+
+         <!--INICIO FORMULARIO-->
+
+        <form id="formulario">
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <label for="nombre">Nombre Completo</label>
+              <input type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group col-sm-6">
+               <label for="curso">Curso de interés</label>
+              <input type="text" id="curso" class="form-control" placeholder="Ingrese el curso">
+            </div>
+             <div class="form-group col-sm-12">
+               <label for="mail">Email</label>
+              <input type="email" id="mail" class="form-control" placeholder="Ingrese su casilla de correo">
+            </div>
+             <div class="form-group col-sm-8 col-md-12">
+               <label for="nivel">Nivel de conocimiento</label>
+                <select id="provincia" class="form-control">
+                <option selected="Principiante">Principiante</option>
+                <option>Intermedio</option>
+                <option>Avanzado</option>
+                <option>Profecional</option>
+              </select>
+             </div>
+             
+
+           <div class="form-group col-sm-10">
+               <label for="mensaje">Comentario</label>
+               <textarea id="comentario" class="form-control" rows="8"></textarea>
+            </div>
+          
+           <button type="submit" class="btn btn-secondary" id="botonenviar">Enviar</button>
+        </div>
+        </form>
+
+
+        
+        <!--FIN FORMULARIO-->
+
+        
+
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+      </section>
+      <footer class="row" id="pie">
+        <div class="col-4" id="textopie">
+          <address>Buenos Aires, Argentina.<span class="iconic iconic-iphone" title="iphone" aria-hidden="true"></span> Tel:011-400-0000</address>
+        </div>
+        <nav class="col-lg-4 offset-4">
+          <ul class="nav" id="botonera">
+            <li class="nav-item"><a href="sobrenosotros.html" class="nav-link btn btn-secondary btn-lg btn-block boton">Contacto</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
+
